@@ -1,0 +1,1 @@
+function e(e,t){let n=URL.createObjectURL(t),r=document.createElement(`a`);r.href=n,r.download=e,document.body.append(r),r.click(),r.remove(),URL.revokeObjectURL(n)}export{e as t};
