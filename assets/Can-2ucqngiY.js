@@ -1,0 +1,1 @@
+import{c as e}from"./utils-eZ1c32IY.js";import{nr as t}from"./index-C1pxNPTy.js";var n=e();function r({permission:e,children:r,fallback:i=null}){let{hasPermission:a}=t();return(0,n.jsx)(n.Fragment,{children:a(e)?r:i})}export{r as t};
