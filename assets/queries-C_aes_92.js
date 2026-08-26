@@ -1,0 +1,1 @@
+import{n as e,t}from"./crud-B35UjViZ.js";var n=e(`/secretarias`),r=e(`/setores`),i=e(`/unidades`),a=e(`/centros-custo`),o=t(`secretarias`,n,`Secretaria`,!0),s=t(`setores`,r,`Setor`),c=t(`unidades`,i,`Unidade`,!0),l=t(`centros-custo`,a,`Centro de custo`);export{c as i,o as n,s as r,l as t};
