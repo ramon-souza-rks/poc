@@ -1,0 +1,1 @@
+import{o as e}from"./http-cYgEi1pu.js";import{n as t,t as n}from"./crud-B35UjViZ.js";var r=t(`/enderecos`),i=n(`enderecos`,r,`Endereço`),a=`-frequente,logradouro`;function o(){return e({queryKey:[`enderecos`,`busca`],queryFn:()=>r.listar({status:`ATIVO`,pageSize:200,sort:a}).then(e=>e.data),refetchOnWindowFocus:!0,staleTime:6e4})}export{o as n,i as t};
